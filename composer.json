@@ -1,0 +1,22 @@
+{
+  "name": "liteapi/test-pack",
+  "description": "Test pack for LiteApi framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paweł Podgórski",
+      "email": "pawel.jan.podgorski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "phpunit/phpunit": "^10.0",
+    "liteapi/liteapi": "0.6.0-alpha"
+  },
+  "autoload": {
+    "psr-4": {
+      "LiteApi\\TestPack\\": "src/"
+    }
+  }
+}
